@@ -1,8 +1,5 @@
-import sayHello from "./hello"
-import sayGoodbye from "./goodbye"
-import SandwichMaker from "./sandwichMaker"
+import domManipulation from "./Dom.js"
 
-sayHello()
-sayGoodbye()
 
-SandwichMaker.placeOrder("rye", "capicola", "provolone")
+// domManipulation.displayEmployeeApi()
+domManipulation.displayEmpInf()
